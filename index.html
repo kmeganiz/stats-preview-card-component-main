@@ -3,7 +3,7 @@
 <head>
   <!-- Required meta tags -->
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   
   <!-- Bootstrap CSS -->
@@ -17,35 +17,36 @@
   
   <title>Frontend Mentor | Stats preview card component</title>
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
 </head>
 <body>
   <main>
-    <div class="banner container d-flex align-items-center">
+    <div class="container d-flex align-items-center">
       <div class="row">
-        <div class="col card">
-            <img class="banner img-fluid" src="images/image-header-desktop.jpg" alt="office">
+        <div class="col content d-flex flex-column">
+          <h1><span>Get </span><span class="purple">insights </span>that help your business grow.</h1>
+          <h2>Discover the benefits of data analytics and make better decisions regarding revenue, customer experience, and overall efficiency.</h2>
+          <div class="row">
+            <div class="col">
+              <span class="thick">10k+</span>
+              <span>companies</span>
+            </div>
+            <div class="col">
+              <span class="thick">314</span> templates
+            </div>
+            <div class="col">
+              <span class="thick">12m+</span> queries
+            </div>
           </div>
         </div>
+        <div class="col card">
+          <img class="img-fluid" src="images/image-header-desktop.jpg" alt="office">
+        </div>
+
       </div>
   
     </div>
 
-  
-
   </main>
-  Get insights that help your business grow.
-
-  Discover the benefits of data analytics and make better decisions regarding revenue, customer 
-  experience, and overall efficiency.
-
-  10k+ companies
-  314 templates
-  12m+ queries
 
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
