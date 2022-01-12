@@ -31,8 +31,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [https://github.com/kmeganiz/stats-preview-card-component-main/](https://github.com/kmeganiz/stats-preview-card-component-main)
+- Live Site URL: [https://kmeganiz.github.io/stats-preview-card-component-main/](https://kmeganiz.github.io/stats-preview-card-component-main/)
 
 ## My process
 
