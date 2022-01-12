@@ -21,8 +21,8 @@ html {
     --main-head: hsl(0, 0%, 100%);
     --main-para: hsla(0, 0%, 100%, 0.75);
     --stat-head: hsla(0, 0%, 100%, 0.6);
-    --main-font-family: 'Inter', sans-serif;
-    --heading-font-family: 'Lexend Deca', sans-serif;
+    --main-font-family: 'Lexend Deca', sans-serif;
+    --heading-font-family: 'Inter', sans-serif;
     --main-font-size: 15px;
 }
 
@@ -50,8 +50,10 @@ h1 {
 }
 
 h2 {
+    font-family: var(--main-font-family);
     color: var(--main-para);
     font-size: 15px;
+    line-height: 1.6em;
 }
 
 p {
@@ -99,4 +101,9 @@ li {
     background-color: var(--soft-violet);
     border-radius: 15px;
     cursor: pointer;
+    z-index: 1000;
+}
+
+.row .col .content {
+    margin-left: 100px;
 }
