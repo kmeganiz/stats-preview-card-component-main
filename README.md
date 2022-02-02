@@ -82,8 +82,9 @@ Use this section to outline areas that you want to continue focusing on in futur
 ## Author
 
 - Website - [Katherin Meganis Phang](https://www.kmeganiz.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
+- Frontend Mentor - [kmeganiz](https://www.frontendmentor.io/profile/kmeganiz)
+- Twitter - [@kmeganiz](https://www.twitter.com/kmeganiz)
+- LinkedIn - [kmeganiz](https://www.linkedin.com/in/kmeganiz/)
 
 
 ## Acknowledgments
