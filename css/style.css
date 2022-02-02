@@ -37,11 +37,15 @@ body {
     justify-content: center;
 }
 
-/* .container {
+.container {
     background-color: var(--card-bg);
+    margin: 300px;
+}
+
+.row {
     width: 1080px;
     height: 446px;
-} */
+}
 
 h1 {
     font-family: var(--heading-font-family);
