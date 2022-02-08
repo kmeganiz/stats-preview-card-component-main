@@ -25,9 +25,7 @@ Users should be able to:
 - View the optimal layout depending on their device's screen size
 
 ### Screenshot
-
-![](./screenshot.jpg)
-
+![This is the screenshot for desktop](https://github.com/kmeganiz/stats-preview-card-component-main/Screenshot 2022-02-08_stat-preview-card.jpg)
 
 ### Links
 
@@ -44,39 +42,18 @@ Users should be able to:
 - CSS Grid
 - Mobile-first workflow
 
-
 ### What I learned
-
-I am stuck in doing this and ask help from friends. Look simple but for me it was hard.
-
-To see how you can add code snippets, see below:
-
-```html
-<h1>Some HTML code I'm proud of</h1>
-```
-```css
-.proud-of-this-css {
-  color: papayawhip;
-}
-```
-```js
-const proudOfThisFunc = () => {
-  console.log('🎉')
-}
-```
-
-If you want more help with writing markdown, we'd recommend checking out [The Markdown Guide](https://www.markdownguide.org/) to learn more.
+I am still stuck in doing this and need your help. I can't really understand the concept of flexbox and grid.
 
 
 ### Continued development
 
-Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
 
 
 ### Useful resources
 
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
+- [CSS Flexbox](https://www.w3schools.com/css/css3_flexbox.asp) - I am still currentyly studying this
+- [CSS Grid](https://www.w3schools.com/css/css_grid.asp) - I am still currentyly studying this
 
 
 ## Author
@@ -88,5 +65,4 @@ Use this section to outline areas that you want to continue focusing on in futur
 
 
 ## Acknowledgments
-
-This is where you can give a hat tip to anyone who helped you out on this project. Perhaps you worked in a team or got some inspiration from someone else's solution. This is the perfect place to give them some credit.
+I will be thankful for anyone of you who help me.
