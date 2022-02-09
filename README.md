@@ -64,7 +64,13 @@ I am a beginner, so these are the step by step:
 ```
 <p></p>
 ```
-- For the stat will be using unordered list or ul and then remove the bullet in the css style using: 
+- For the stat will be using unordered list 
+```
+<ul>
+  <li></li>
+</ul>
+```
+- and then remove the bullet in the css style using: 
 ```
 .stat ul {list-style-type: none;}
 ```
