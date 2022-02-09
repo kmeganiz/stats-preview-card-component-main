@@ -55,22 +55,21 @@ I am a beginner, below are the step by step, I am doing mobile first
 <img src="images/image-header-desktop.jpg" class="img-header"  alt="office">
 ```
 
-3. Add the content in:
-- For heading using
+3. Add the heading
 ```
 <h1></h1>
 ```
-- For paragraph I am using
+4. Add the paragraph
 ```
 <p></p>
 ```
-- For the stat will be using unordered list 
+5. Add the statistic content, I am using unordered list 
 ```
 <ul>
   <li></li>
 </ul>
 ```
-- and then remove the bullet in the css style using: 
+6. We could remove the bullet in ul do in the css style using: 
 ```
 .stat ul {list-style-type: none;}
 ```
