@@ -43,7 +43,7 @@ Users should be able to:
 - Mobile-first workflow
 
 ### What I learned
-I am a beginner, so these are the step by step:
+I am a beginner, below are the step by step, I am doing mobile first
 
 1. Create a card. As below:
 ```
