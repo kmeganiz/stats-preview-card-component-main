@@ -56,9 +56,15 @@ I am a beginner, so these are the step by step:
 ```
 
 3. Add the content in:
-- For heading using this tag: <h1>
-- For paragraph I am using this tag: <p>
-- For the stat will be using unordered list, this tag: <ul> and then remove the bullet in the css style using: 
+- For heading using
+```
+<h1></h1>
+```
+- For paragraph I am using
+```
+<p></p>
+```
+- For the stat will be using unordered list or ul and then remove the bullet in the css style using: 
 ```
 .stat ul {list-style-type: none;}
 ```
