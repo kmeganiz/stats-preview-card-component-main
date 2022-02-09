@@ -43,14 +43,14 @@ Users should be able to:
 - Mobile-first workflow
 
 ### What I learned
-After reading the comment from Grace, I have done several things below:
-1. remove bootstrap. 
-2. remove the h2s
-3. make the 3 stats into an unordered list with 3 items inside
+I am a beginner, so these are the step by step:
 
-      I am going to do below:
-4. wrap either the number or word in a span or strong tag
-5. For the layout start mobile first.
+1. create a card. As below:
+```
+<div class="card"></div>
+```
+
+2. add the image into the card.
 
 
 ### Continued development
@@ -58,6 +58,8 @@ Still continue to develop
 
 
 ### Useful resources
+- [CSS Card in CSS](https://www.w3schools.com/howto/howto_css_cards.asp) - first thing first create the card
+- [CSS Line Height Property](https://www.w3schools.com/cssref/pr_dim_line-height.asp) - using this one for the paragraph
 
 - [CSS Flexbox](https://www.w3schools.com/css/css3_flexbox.asp) - I am still currentyly studying this
 - [CSS Grid](https://www.w3schools.com/css/css_grid.asp) - I am still currentyly studying this
