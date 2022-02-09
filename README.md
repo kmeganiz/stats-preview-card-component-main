@@ -25,7 +25,7 @@ Users should be able to:
 - View the optimal layout depending on their device's screen size
 
 ### Screenshot
-![This is the screenshot for desktop](https://github.com/kmeganiz/stats-preview-card-component-main/blob/main/Screenshot%202022-02-09_stat-preview-card.jpg)
+![This is the screenshot for mobile](https://github.com/kmeganiz/stats-preview-card-component-main/blob/main/Screenshot_2022-02-09_stat-preview-card.jpg)
 
 ### Links
 
@@ -56,9 +56,9 @@ I am a beginner, so these are the step by step:
 ```
 
 3. Add the content in:
-3.1. For heading using this tag: <h1>
-3.2. For paragraph I am using this tag: <p>
-3.3. For the stat will be using unordered list, this tag: <ul> and then remove the bullet in the css style using: 
+a. For heading using this tag: <h1>
+b. For paragraph I am using this tag: <p>
+c. For the stat will be using unordered list, this tag: <ul> and then remove the bullet in the css style using: 
   ```
   .stat ul {list-style-type: none;}
   ```
