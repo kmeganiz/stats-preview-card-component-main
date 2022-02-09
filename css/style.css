@@ -22,7 +22,6 @@
 body {
   background-color: var(--main-bg);
   min-height: 100vh;
-  color: var(--main-head);
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -33,7 +32,7 @@ body {
   width: 22em;
   background-color: var(--card-bg);
   max-width: 22em;
-  border-radius: 0.5em 0;
+  border-radius: 0.5em;
 }
   
 .img-header {
@@ -43,21 +42,44 @@ body {
   border-top-right-radius: 0.5em;
 }
 
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  opacity: 0;
+  transition: .3s ease;
+  background-color: var(--soft-violet);
+  border-radius: 15px;
+  cursor: pointer;
+}
+
 .card-content {
   text-align: center;
 }
 
 .card-content h1 {
-  font-family: var(--heading-font-family);
   padding: 1em 0.8em;
 }
 
+.card-content h1, .stat ul li span {
+  font-family: var(--heading-font-family);
+  color: var(--main-head);
+  font-size: 2em;
+  font-weight: 700;
+}
+
 .card-content p {
+  padding: 0 2.5em 1em;
+}
+
+.card-content p, .stat ul li {
   color: var(--main-para);
   font-family: var(--main-font-family);
   font-size: var(--main-font-size);
   font-weight: 400;
-  padding: 0 2.5em 1em;
+  line-height: 200%;
 }
 
 .card-content h1 span {
@@ -66,9 +88,13 @@ body {
 
 .stat ul {
   list-style-type: none;
-  font-family: var(--main-font-family);
 }
-  
+
+.stat ul li {
+  text-transform: uppercase;
+  padding: 1.5em 8em;
+}
+
 .attribution { 
   font-size: 0.69rem; 
   text-align: center; 
