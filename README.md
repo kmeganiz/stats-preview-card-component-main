@@ -25,7 +25,7 @@ Users should be able to:
 - View the optimal layout depending on their device's screen size
 
 ### Screenshot
-![This is the screenshot for desktop](https://github.com/kmeganiz/stats-preview-card-component-main/blob/main/Screenshot%202022-02-08_stat-preview-card.jpg)
+![This is the screenshot for desktop](https://github.com/kmeganiz/stats-preview-card-component-main/blob/main/Screenshot%202022-02-09_stat-preview-card.jpg)
 
 ### Links
 
@@ -43,11 +43,18 @@ Users should be able to:
 - Mobile-first workflow
 
 ### What I learned
-I am still stuck in doing this and need your help. I can't really understand the concept of flexbox and grid.
+After reading the comment from Grace, I have done several things below:
+1. remove bootstrap. 
+2. remove the h2s
+3. make the 3 stats into an unordered list with 3 items inside
+
+      I am going to do below:
+4. wrap either the number or word in a span or strong tag
+5. For the layout start mobile first.
 
 
 ### Continued development
-
+Still continue to develop
 
 
 ### Useful resources
@@ -65,4 +72,4 @@ I am still stuck in doing this and need your help. I can't really understand the
 
 
 ## Acknowledgments
-I will be thankful for anyone of you who help me.
+Thank you to Grace @grace-snow
