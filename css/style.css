@@ -34,16 +34,21 @@ body {
   max-width: 22em;
   border-radius: 0.5em;
 }
-  
+
 .img-header {
+  background: var(--soft-violet);
+}
+
+.img-header, img {
   height: 16em;
   width: 100%;
   border-top-left-radius: 0.5em;
   border-top-right-radius: 0.5em;
-  background-color: hsla(277, 64%, 61%, 0.8);
-  background-size: cover;
-  background-blend-mode: soft-light;
-  filter: contrast(1.3) brightness(0.7);
+}
+  
+img {
+  object-fit: cover;
+  opacity: 0.5;
 }
 
 .card-content {
