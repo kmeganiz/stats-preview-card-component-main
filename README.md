@@ -85,8 +85,9 @@ Still continue to develop
 - [CSS Card in CSS](https://www.w3schools.com/howto/howto_css_cards.asp) - first thing first create the card
 - [CSS Padding] (https://www.w3schools.com/css/css_padding.asp) - add padding to put space in between the content
 - [CSS Line Height Property](https://www.w3schools.com/cssref/pr_dim_line-height.asp) - using this one for the paragraph
-
+- [CSS Unordered List] (https://www.w3schools.com/html/html_lists_unordered.asp) - create unordered list
 - [remove the bullet in CSS](https://www.w3schools.com/html/tryit.asp?filename=tryhtml_lists_unordered_none) - let's remove the bullet
+- [CSS Border Radius] (https://www.w3schools.com/cssref/css3_pr_border-radius.asp) - add the border radius top and bottom
 - [CSS Flexbox](https://www.w3schools.com/css/css3_flexbox.asp) - I am still currentyly studying this
 - [CSS Grid](https://www.w3schools.com/css/css_grid.asp) - I am still currentyly studying this
 
