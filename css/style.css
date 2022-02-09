@@ -1,48 +1,78 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lexend+Deca&display=swap');
   
 *, *:before, *:after {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 /* Declaring global CSS variables */
 :root {
-    --main-bg: hsl(233, 47%, 7%);
-    --card-bg: hsl(244, 38%, 16%);
-    --soft-violet: hsl(277, 64%, 61%);
-    --main-head: hsl(0, 0%, 100%);
-    --main-para: hsla(0, 0%, 100%, 0.75);
-    --stat-head: hsla(0, 0%, 100%, 0.6);
-    --main-font-family: 'Lexend Deca', sans-serif;
-    --heading-font-family: 'Inter', sans-serif;
-    --main-font-size: 15px;
+  --main-bg: hsl(233, 47%, 7%);
+  --card-bg: hsl(244, 38%, 16%);
+  --soft-violet: hsl(277, 64%, 61%);
+  --main-head: hsl(0, 0%, 100%);
+  --main-para: hsla(0, 0%, 100%, 0.75);
+  --stat-head: hsla(0, 0%, 100%, 0.6);
+  --main-font-family: 'Lexend Deca', sans-serif;
+  --heading-font-family: 'Inter', sans-serif;
+  --main-font-size: 15px;
 }
 
 body {
-    background-color: var(--main-bg);
-    min-height: 100vh;
-    color: var(--main-head);
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    font-family: var(--main-font-family);
-    font-size: var(--main-font-size);
-    font-weight: 700;
-    margin: 5em 0 5em 0;
+  background-color: var(--main-bg);
+  min-height: 100vh;
+  color: var(--main-head);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
-.wrap {
+.card {
   width: 22em;
+  background-color: var(--card-bg);
+  max-width: 22em;
+  border-radius: 0.5em;
+}
+  
+.img-header {
+  height: 16em;
+  width: 100%;
+}
+
+.card-content {
+  text-align: center;
+}
+
+.card-content h1 {
+  font-family: var(--heading-font-family);
+  padding: 1em 0.8em;
+}
+
+.card-content p {
+  color: var(--main-para);
+  font-family: var(--main-font-family);
+  font-size: var(--main-font-size);
+  font-weight: 400;
+  padding: 0 2.5em 1em;
+}
+
+.card-content h1 span {
+  color: var(--soft-violet);
+}
+
+.stat ul {
+  list-style-type: none;
+  font-family: var(--main-font-family);
 }
   
 .attribution { 
-    font-size: 0.69rem; 
-    text-align: center; 
-    margin-top: 0.75em;
-    color: hsl(0, 0%, 75%);
-    font-weight: 300;
+  font-size: 0.69rem; 
+  text-align: center; 
+  margin-top: 0.75em;
+  color: hsl(0, 0%, 75%);
+  font-weight: 300;
 }
   
 .attribution a { 
