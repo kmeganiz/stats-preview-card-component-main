@@ -45,12 +45,23 @@ Users should be able to:
 ### What I learned
 I am a beginner, so these are the step by step:
 
-1. create a card. As below:
+1. Create a card. As below:
 ```
 <div class="card"></div>
 ```
 
-2. add the image into the card.
+2. Add the image into the card.
+```
+<img src="images/image-header-desktop.jpg" class="img-header"  alt="office">
+```
+
+3. Add the content in:
+3.1. For heading using this tag: <h1>
+3.2. For paragraph I am using this tag: <p>
+3.3. For the stat will be using unordered list, this tag: <ul> and then remove the bullet in the css style using: 
+  ```
+  .stat ul {list-style-type: none;}
+  ```
 
 
 ### Continued development
@@ -59,8 +70,10 @@ Still continue to develop
 
 ### Useful resources
 - [CSS Card in CSS](https://www.w3schools.com/howto/howto_css_cards.asp) - first thing first create the card
+- [CSS Padding] (https://www.w3schools.com/css/css_padding.asp) - add padding to put space in between the content
 - [CSS Line Height Property](https://www.w3schools.com/cssref/pr_dim_line-height.asp) - using this one for the paragraph
 
+- [remove the bullet in CSS](https://www.w3schools.com/html/tryit.asp?filename=tryhtml_lists_unordered_none) - let's remove the bullet
 - [CSS Flexbox](https://www.w3schools.com/css/css3_flexbox.asp) - I am still currentyly studying this
 - [CSS Grid](https://www.w3schools.com/css/css_grid.asp) - I am still currentyly studying this
 
