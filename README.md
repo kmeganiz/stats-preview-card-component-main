@@ -25,7 +25,8 @@ Users should be able to:
 - View the optimal layout depending on their device's screen size
 
 ### Screenshot
-![This is the screenshot for mobile](https://github.com/kmeganiz/stats-preview-card-component-main/blob/main/stat-preview-card_screenshot.jpg)
+[This is the screenshot for desktop](https://github.com/kmeganiz/stats-preview-card-component-main/blob/main/stat-preview-card_desktop_screenshot.jpg)
+[This is the screenshot for mobile](https://github.com/kmeganiz/stats-preview-card-component-main/blob/main/stat-preview-card_mobile_screenshot.jpg)
 
 ### Links
 
