@@ -88,6 +88,7 @@ Still continue to develop
 - [Unordered List without Bullets in CSS](https://www.w3schools.com/html/tryit.asp?filename=tryhtml_lists_unordered_none) - let's remove the bullet
 - [CSS Border Radius](https://www.w3schools.com/cssref/css3_pr_border-radius.asp) - add the border radius top and bottom
 - [CSS Text Transform](https://www.w3schools.com/cssref/pr_text_text-transform.asp) - change all text to uppercase
+- [CSS Filter](https://www.w3schools.com/css/tryit.asp?filename=trycss_ex_images_filters) - I am using this to do the purple overlay
 - [CSS Flexbox](https://www.w3schools.com/css/css3_flexbox.asp) - I am still currentyly studying this
 - [CSS Grid](https://www.w3schools.com/css/css_grid.asp) - I am still currentyly studying this
 
