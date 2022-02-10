@@ -77,7 +77,18 @@ I am a beginner, below are the step by step, I am doing mobile first
 ```
 .stat ul {list-style-type: none;}
 ```
- 
+7. Applying min-height: 100vh to the body element means that the initial body height will take 100% of the viewport height, whereas the use of min-height instead of height will let the body element grow even more if necessary.
+
+8. For mobile the flex direction is column, hence for desktop is row.
+```
+body {
+  background-color: var(--main-bg);
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+```
+9. Since only require
 
 
 ### Continued development
@@ -85,6 +96,7 @@ Still continue to develop
 
 
 ### Useful resources
+- [CSS Variables - The var() Function](https://www.w3schools.com/css/css3_variables.asp) - We can do a global variables declare it inside the :root selector. 
 - [CSS Card in CSS](https://www.w3schools.com/howto/howto_css_cards.asp) - first thing first create the card
 - [CSS Padding](https://www.w3schools.com/css/css_padding.asp) - add padding to put space in between the content
 - [CSS Line Height Property](https://www.w3schools.com/cssref/pr_dim_line-height.asp) - using this one for the paragraph
@@ -92,9 +104,9 @@ Still continue to develop
 - [Unordered List without Bullets in CSS](https://www.w3schools.com/html/tryit.asp?filename=tryhtml_lists_unordered_none) - let's remove the bullet
 - [CSS Border Radius](https://www.w3schools.com/cssref/css3_pr_border-radius.asp) - add the border radius top and bottom
 - [CSS Text Transform](https://www.w3schools.com/cssref/pr_text_text-transform.asp) - change all text to uppercase
-- [CSS Filter](https://www.w3schools.com/css/tryit.asp?filename=trycss_ex_images_filters) - I am using this to do the purple overlay
-- [CSS Flexbox](https://www.w3schools.com/css/css3_flexbox.asp) - I am still currentyly studying this
-- [CSS Grid](https://www.w3schools.com/css/css_grid.asp) - I am still currentyly studying this
+- [CSS Filter](https://www.w3schools.com/css/tryit.asp?filename=trycss_ex_images_filters) - I am using this to do the purple overlay.
+- [CSS Flexbox](https://www.w3schools.com/css/css3_flexbox.asp) - Applying the flex.
+- [CSS Grid](https://www.w3schools.com/css/css_grid.asp) - I am still currentyly studying this, decided to use flex instead.
 
 
 ## Author
