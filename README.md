@@ -122,4 +122,4 @@ Thank you to Grace @grace-snow
 
 ### Licence
 I am using this [MIT Licence](https://choosealicense.com/licenses/mit/#suggest-this-license)
-So I get my licence here.
+So I get [my licence here](https://github.com/kmeganiz/stats-preview-card-component-main/blob/main/LICENSE).
