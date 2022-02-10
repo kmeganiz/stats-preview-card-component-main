@@ -21,15 +21,17 @@
 
 body {
   background-color: var(--main-bg);
-  min-height: 100vh;
   display: flex;
+  min-height: 100vh;
   flex-direction: column;
   align-items: center;
   justify-content: center;
 }
 
 .card {
-  width: 22em;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
   background-color: var(--card-bg);
   max-width: 22em;
   border-radius: 0.5em;
@@ -37,22 +39,21 @@ body {
 
 .img-header {
   background: var(--soft-violet);
+  flex: 1;
 }
 
 .img-header, img {
-  height: 16em;
-  width: 100%;
   border-top-left-radius: 0.5em;
   border-top-right-radius: 0.5em;
+  height: 16em;
+  width: 100%;
 }
   
 img {
   object-fit: cover;
   opacity: 0.5;
-}
-
-.card-content {
-  text-align: center;
+  filter: brightness(250%);
+  filter: contrast(150%);
 }
 
 .card-content h1 {
@@ -76,6 +77,7 @@ img {
   font-size: var(--main-font-size);
   font-weight: 400;
   line-height: 200%;
+  text-align: center;
 }
 
 .card-content h1 span {
@@ -95,26 +97,59 @@ img {
   font-size: 0.69rem; 
   text-align: center; 
   margin-top: 0.75em;
-  color: hsl(0, 0%, 75%);
+  color: var(--main-head);
   font-weight: 300;
 }
   
 .attribution a { 
     color: hsl(228, 45%, 44%); 
 }
-  
-@media (min-width: 576px) {
-  
-}
 
-@media (min-width: 992px) {
-  
-}
+@media (min-width: 1280px) {
+  .card {
+    min-width: 70em;
+    height: auto;
+    flex-direction: row;
+  }
 
-@media (min-width: 1200px) {
-  
-}
+  .img-header, img {
+    border-top-left-radius: 0;
+    border-top-right-radius: 0.5em;
+    border-bottom-right-radius: 0.5em;
+    height: 30em;
+    width: 100%;
+    flex: 100%;
+  }
+    
+  img {
+    object-fit: cover;
+    opacity: 0.5;
+    filter: brightness(250%);
+    filter: contrast(150%);
+  }
 
-@media (min-width: 1440px) {
+  .card-content {
+    text-align: left;
+    order: -1;
+    margin-left: 2em;
+  }
+
+  .card-content h1 {
+    padding: 2em 4em 1em 1em;
+  }
+
+  .card-content p {
+    text-align: left;
+    margin: 0 5em 2em 0;
+  }
+
+  .stat ul {
+    display: flex;
+    flex-direction: row;
+  }
   
+  .stat ul li {
+    text-align: left;
+    padding: 1em 0 1em 2em;
+  }
 }
