@@ -119,3 +119,7 @@ Still continue to develop
 
 ## Acknowledgments
 Thank you to Grace @grace-snow
+
+### Licence
+I am using this [MIT Licence](https://choosealicense.com/licenses/mit/#suggest-this-license)
+So I get my licence here.
