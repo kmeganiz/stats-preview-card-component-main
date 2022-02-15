@@ -17,6 +17,13 @@ This is a solution to the [Stats preview card component challenge on Frontend Me
 - [Acknowledgments](#acknowledgments)
 
 ## Overview
+I finally done this challenge, I learn to have a thick skin to ask, glad there were constructive feedbacks given. I am proud of myself, although the result is not exactly the same as what expected.
+
+I have difficulty in doing the card container, how to collapse the row into a column when in mobile size in other words to be responsive.
+
+Also for the overlay. I think my way is not making the purple same as the sample.
+
+Open for feedback. Thank you!!
 
 ### The challenge
 
